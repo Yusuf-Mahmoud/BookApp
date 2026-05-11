@@ -1,0 +1,14 @@
+name: items_app
+description: A two-screen Flutter app with list and detail views.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
