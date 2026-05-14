@@ -1,4 +1,4 @@
-import '../entities/item.dart';
+import '../entities/item_entity.dart';
 import '../repositories/item_repository.dart';
 
 class GetItemsUseCase {
@@ -6,7 +6,7 @@ class GetItemsUseCase {
 
   GetItemsUseCase(this.repository);
 
-  List<Item> call() {
+  Future<List<ItemEntity>> execute() {
     return repository.getItems();
   }
 }
